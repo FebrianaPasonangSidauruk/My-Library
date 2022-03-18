@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  background-color: #1FA2C5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgba(0,0,0,0.04);
+  background-color: #001920;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  height: 100px;
+  width: 100%;
+}
+
+footer {
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0px;
+  left: 0px;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  border: 2px solid rgba(0,0,0,0.04);
+  background-color: #001920;
+  color: #fff;
+  height: 200px;
+  z-index: 10;
+}
+
+p{
+  padding-top: 50px;
+}
+
+.akun{
+  margin: 10px 15px 15px 10px;
+}
+
+.akun img{
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.menu li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 0px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  background: #1FA2C5;
+}
+
+li {
+  list-style: none;
+  margin-right: 1rem;
+  color: #ffffff;
+  font-family: "Sen Regular";
+  cursor:pointer;
+  display: list-item;
+    text-align: -webkit-match-parent;
+}
+h1 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-family: "Playfair Display Regular";
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 7rem 0;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    height: 35rem;
+    background: #d7eaf5;
+    box-shadow: 0 10px 20px #001920, 0 6px 6px #001920;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+    cursor:pointer;
+  }
+  .card--avatar {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+  }
+  .card--title {
+    color: #222;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+  .card--link {
+    text-decoration: none;
+    background: #001920;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+  }
+
+  .card--link:hover{
+    background: #1FA2C5;
+  }

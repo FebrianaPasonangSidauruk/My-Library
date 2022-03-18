@@ -1,0 +1,36 @@
+{
+    "name": "My Library",
+    "short_name": "MyLibrary",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#1FA2C5",
+    "theme_color": "#001920",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/Image/icons/book32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/Image/icons/book64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/Image/icons/book128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/Image/icons/book256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "/Image/icons/book512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
